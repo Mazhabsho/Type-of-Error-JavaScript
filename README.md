@@ -1,6 +1,6 @@
 # Type-of-Error-JavaScript
 
-    ![](./img/Types-of-Errors-In-JavaScript.jpeg)
+   ![](./img/Types-of-Errors-In-JavaScript.jpeg)
 
      In any programming language, errors occur. There are basically two types of errors in 
      
