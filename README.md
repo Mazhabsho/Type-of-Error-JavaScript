@@ -1,6 +1,6 @@
 # Type-of-Error-JavaScript
 
-   ![](./img/Types-of-Errors-In-JavaScript.jpeg)
+   ![](./img/1%20Gid6GfUT9l9qStTNtrfeDw.webp)
 
      In any programming language, errors occur. There are basically two types of errors in 
      
@@ -26,7 +26,15 @@
 
      Syntax error (SyntaxError): This is done when you use an already pre-defined syntax in the 
      
-     wrong way.Run the code below to see a syntax error. It will be thrown because there are no 
+     wrong way.Some common causes of a SyntaxError are:
+
+         Missing opening or closing brackets, braces, or parentheses
+         
+         Missing or invalid semicolons
+         
+         Misspelling of variable names or functions
+
+     Run the code below to see a syntax error. It will be thrown because there are no 
      
      closing braces ‘}’ for the function. We can see this here:
 
@@ -35,18 +43,26 @@
    ![](./img/2.PNG);
 ### Reference Error
 
-     Reference Error (ReferenceError): this occurs when a variable reference can’t be found or 
+     In essence, a reference error occurs when JavaScript tries to access a variable that 
      
-     is not declared. Run the code below to see the type of error it logs:
+     doesn’t exist, hasn’t been defined, or doesn’t exist in the current scope from which you 
+     
+     are trying to access it. Run the code below to see the type of error it logs:
 
    ![](./img/3.PNG);
 
    ![](./img/4.PNG);
 ### Type Error
 
-     Type Error (TypeError()): This is an error caused by misusing a value outside its own data 
+     If I ask you to give me the result of the addition of 1 plus H will you be able to give me 
      
-     type scope. We can represent this in the following way:
+     the answer?  The obvious answer is NO.
+
+     The same goes in JavaScript! If you add 1 and H in JavaScript or when you try to perform 
+     
+     operations on two operands of unmatched types, JavaScript throws a TypeError.We can 
+     
+     represent this in the following way:
 
    ![](./img/5.PNG);
 
@@ -62,14 +78,18 @@
      
      диапазон значений, как показано ниже:
 
-   ![](./img/3.PNG);
+   ![](./img/7.PNG);
     
-   ![](./img/3.PNG);
+   ![](./img/8.PNG);
 ### URI Error
 
-     URI Error(URIError()): This is called whenever a wrong character(s) is used in any URI 
+     A Uniform Resource Locator (URL) is what leads/ведет you to a page or file on the 
      
-     function. A sample of this is shown below:
+     internet. URLs serve as the addresses of things on the internet.When you pass a string to 
+     
+     the URL constructor, it returns a new URL object if a string is a valid URL. Otherwise, it 
+     
+     returns an error: This is called whenever a wrong character(s) is used in any URI 
 
    ![](./img/9.PNG);
    
